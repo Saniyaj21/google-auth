@@ -21,6 +21,11 @@ function App() {
 					console.log("Login Failed");
 				}}
 			/>
+
+      <p>{user?.email}</p>
+      <p>{user?.given_name}</p>
+      <p>{user?.family_name}</p>
+      <img src={user?.picture} alt="" />
 		</>
 	);
 }
